@@ -4,7 +4,7 @@ import { Link , useNavigate } from 'react-router-dom'
 const Register = () => {
     const navigate = useNavigate();
 
-    const SIGNIN_URL = `${process.env.REACT_APP_BASE_URL}/register`;
+    const SIGNIN_URL = `${process.env.REACT_APP_BASE_URL}/signin`;
     const [inputData , setInputData] = useState({userEmail : '' , userPassword : ''});
     const handleChange = (e) => {
         const { name , value , type , files , checked } = e.target;

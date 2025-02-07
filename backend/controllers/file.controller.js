@@ -1,6 +1,7 @@
 const fs = require('fs');
 const ExcelJS = require('exceljs');
 const path = require('path');
+const XLSX = require('xlsx');
 const { dataTable } = require("../models/data.model")
 
 
